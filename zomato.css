@@ -1,0 +1,566 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Okra, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+#main img{
+    height: 440px;
+    width: 100vw;
+}
+#main{
+    /* border:2px solid; */
+    height: 450px;
+    width: 100%;
+}
+
+#sub-main{
+    border: 2px solid;
+    width: 75%;
+    margin:auto;
+    /* margin-top: -300px; */
+}
+#main p {
+    font-size: 15px;
+    margin-top: -420px;
+    margin-left: 130px;
+    color: white;
+   
+}
+#sub-main div{
+    /* border:2px solid; */
+    width: 40%;
+    position:absolute;
+    right:90px;
+    top:30px;
+    color:white;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 100;
+}
+#sub-main div span+span{
+    padding-left: 47px;
+}
+ .logo{
+    text-align: center;
+    color:white;
+} 
+.logo img{
+    margin-top: 50px;
+}
+.logo h1{
+    font-size: 38px;
+    margin-top: 40px;
+    font-weight: 500;
+}
+.search{
+    display:flex;
+   margin-left:575px;
+   margin-top: 30px;
+}
+.search input{
+    width:490px;
+    height:50px;
+    border-radius: 5px;
+    border:none;
+    outline:none;
+    font-size:15px;
+    padding: 10px;  
+}
+.loc{
+    /* display: flex; */
+    margin-left:286px;    
+    margin-top:-50px 
+}
+.loc input{
+    /* position: absolute; */
+    width:220px;
+    height:50px;
+    border-radius: 5px;
+    border:none;
+    outline:none;
+    font-size:15px;
+    padding-left: 30px;
+    /* margin-top: -70px; */
+}
+.loc i{
+   position: absolute;
+   margin-top: 14px;
+   margin-left:9px;
+   font-size: 20px;
+}
+.loc svg{
+    position: absolute;
+    margin-top: 14px;
+    margin-left:-20px;
+    font-size: 20px;
+ }
+ .glass{
+    position: absolute;
+    border:2px solid;
+   background-color:white;
+   margin-left:500px;    
+    margin-top:-50px;
+    padding: 12.5px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    border:none;
+    outline:none;
+ }
+ .glass i{
+   text-align: center;
+   padding-left: 5px;
+ }
+ .card{
+    display:flex;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+    transition: all 2s;
+ }
+ .card :hover{
+    transform: scale(1.0,1.0);
+ }
+ .crd1 , .crd2,.crd3{
+    border:0.0001px solid rgb(214, 209, 209);
+    margin-top: 27px;
+    border-radius: 15px;
+    height: 240px;
+    width:350px;
+    cursor: pointer;
+ }
+ .crd1 h3 , .crd2 h3, .crd3 h3 {
+    color: rgb(65, 58, 58);
+    margin-top: 13px;
+    padding-left: 17px;
+ }
+ .crd1 p , .crd2 p, .crd3 p{
+    color: rgb(65, 58, 58);
+    margin-left: 18px;
+    margin-top: 7px;
+ }
+ .coll{
+    margin-left:120px;
+    margin-top: 80px;
+ }
+ .coll h2{
+   font-size: 35px;
+   font-weight: 500;
+ }
+ .coll p{
+    font-size: 18px;
+    color:rgb(92, 87, 87);
+ }
+ .food{
+    display: flex;
+    justify-content: center;
+ }
+.food img{
+    margin-top: 35px;
+    margin-inline: 8px;
+    border-radius: 11px;
+}
+.hr1 p{
+    position: absolute;
+    margin-top: -63px;
+    color: white;
+    margin-left: 125px;
+    font-size: 19px;
+}
+.hr1 h6{
+    position: absolute;
+    margin-top: -36px;
+    color: white;
+    margin-left: 128px;
+    font-size: 14px;
+}
+.hr2 p{
+    position: absolute;
+    margin-top: -63px;
+    color: white;
+    margin-left: 410px;
+    font-size: 19px;
+}
+.hr2 h6{
+    position: absolute;
+    margin-top: -36px;
+    color: white;
+    margin-left: 413px;
+    font-size: 14px;
+}
+.hr3 p{
+    position: absolute;
+    margin-top: -63px;
+    color: white;
+    margin-left: 695px;
+    font-size: 19px;
+}
+.hr3 h6{
+    position: absolute;
+    margin-top: -36px;
+    color: white;
+    margin-left: 700px;
+    font-size: 14px;
+}
+.hr4 p{
+    position: absolute;
+    margin-top: -63px;
+    color: white;
+    margin-left: 981px;
+    font-size: 19px;
+}
+.hr4 h6{
+    position: absolute;
+    margin-top: -36px;
+    color: white;
+    margin-left: 985px;
+    font-size: 14px;
+}
+
+.section h1{
+   font-size: 38px;
+   margin-top: 128px;
+   font-weight: 100;
+   color:  rgb(80, 79, 79);
+   margin-left: 115px;
+}
+.sec1{
+    border:1px solid rgb(232, 232, 232);
+    width:25%;
+    height: 75px;
+    margin-left: 118px;
+    margin-top: 37px;
+    border-radius: 8px;
+    /* align-items: center; */
+}
+.sec1 h3 , .sec2 h3, .sec3 h3, .sec4 h3,.sec5 h3,.sec6 h3,.sec7 h3,.sec8 h3{
+   font-weight: 300;
+   color: rgb(53, 52, 52);
+   font-size: 22px;
+   margin-left:15px;
+   margin-top: 12px;
+   cursor: pointer;
+}
+.sec1 p , .sec2 p,.sec3 p,.sec4 p,.sec5 p,.sec6 p,.sec7 p,.sec8 p{
+    font-size: 17px;
+    color:rgb(94, 93, 93);
+    padding-top: 6px;
+    padding-left: 15px;
+}
+.sec1 i , .sec2 i,.sec3 i,.sec4 i,.sec5 i,.sec6 i,.sec7 i,.sec8 i{
+    position: absolute;
+    font-size:12px;
+    margin-top: -30px;
+    padding-left: 293px;
+    cursor: pointer;
+}
+.sec2{
+    border:1px solid rgb(232, 232, 232);
+    width:25%;
+    height: 75px;
+    margin-left: 118px;
+    margin-top: 16px;
+    border-radius: 8px;
+    /* align-items: center; */
+
+}
+.sec3{
+    border:1px solid rgb(232, 232, 232);
+    width:25%;
+    height: 75px;
+    margin-left: 118px;
+    margin-top: 16px;
+    border-radius: 8px;
+    /* align-items: center; */
+
+}
+
+.sec4{
+    border:1px solid rgb(232, 232, 232);
+    width:25%;
+    position: absolute;
+    height: 75px;
+    margin-left: 470px;
+    margin-top: -257px;
+    border-radius: 8px;
+}
+
+.sec5{
+    border:1px solid rgb(232, 232, 232);
+    width:25%;
+    position: absolute;
+    height: 75px;
+    margin-left: 470px;
+    margin-top: -167px;
+    border-radius: 8px;
+}
+.sec6{
+    border:1px solid rgb(232, 232, 232);
+    width:25%;
+    position: absolute;
+    height: 75px;
+    margin-left: 470px;
+    margin-top: -76px;
+    border-radius: 8px;
+}
+.sec7{
+    border:1px solid rgb(232, 232, 232);
+    width:25%;
+    position: absolute;
+    height: 75px;
+    margin-left: 821px;
+    margin-top: -257px;
+    border-radius: 8px;
+}
+.sec8{
+    border:1px solid rgb(232, 232, 232);
+    width:25%;
+    position: absolute;
+    height: 75px;
+    margin-left: 821px;
+    margin-top: -166px; 
+    border-radius: 8px;
+}
+.sec9{
+    border:1px solid rgb(232, 232, 232);
+    width:25%;
+    position: absolute;
+    height: 75px;
+    border-radius: 8px;
+    margin-left: 821px;
+    margin-top: -76px;
+}
+.sec9 p{
+     text-align: center;
+     padding-top: 25px;
+     cursor: pointer;
+}
+.sec9 i{
+   font-size: 13px;
+}
+.footer1{
+    height:490px;
+    width:100%;
+    /* border:2px solid; */
+    background-color: rgb(255, 251, 247);
+    margin-top:110px;
+}
+.footer1 img{
+    margin-top:110px;
+    margin-left: 300px;
+}
+.foo1 h2{
+    position: absolute;
+    font-size:42px;
+    font-weight: 500;
+    margin-left: 600px;
+    margin-top:-350px;
+    word-spacing: 7px;
+}
+.foo1 p{
+    font-size: 18px;
+    position: absolute;
+    margin-top: -270px;
+    margin-left: 587px;
+    word-spacing: 2px;
+    color:rgb(122, 121, 121)
+}
+ .foo2{
+    position: absolute;
+    margin-top: -180px;
+    margin-left: 590px;
+    word-spacing: 70px;
+    font-size: 17px;
+    color:rgb(122, 121, 121);
+}
+.foo3 {
+    margin-left: 550px;
+    margin-top: -200px;
+}
+.foo3 input{
+    height: 45px;
+    width:37%;
+    margin-top: 58px;
+    margin-left: 40px;
+    padding-left: 10px;
+    font-size: 17px;
+    border-radius: 6px;
+    border:1px solid rgb(228, 224, 224);
+}
+.foo3 button{
+    height: 45px;
+    width:20%;
+    border-radius: 6px;
+    border:1px rgb(199, 196, 196);
+    background: border-box rgb(239, 79, 95);
+    border-color: rgb(239, 79, 95);
+    color:white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.foo3 p{
+    font-size: 14px;
+    color:rgb(122, 121, 121);
+    margin-top: 25px;
+    margin-left: 41px;
+}
+.foo4 .imgg1{
+    position: absolute;
+     margin-top: 18px;
+     margin-left: 590px; 
+     cursor: pointer;
+}
+.foo3 .imgg2{
+    position: absolute;
+     margin-top: 18px;
+     margin-left: 190px; 
+     cursor: pointer;
+}
+
+.option{
+    /* border:2px solid; */
+    height: 495px;
+    width:100%;
+    background: rgb(252, 252, 252);
+}
+.option h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 130px;
+    margin-top: 60px;
+    color: rgb(54, 54, 54);
+}
+.option button{
+    width:1050px;
+    height:65px;
+    background-color: #fff;
+    border-radius: 6px;
+    font-size:21px;
+    margin-top: 18px;
+    text-align: left;
+    padding-left:27px;
+    padding-top: 13px;
+    margin-left: 130px;
+    margin-top: 22px;
+    cursor: pointer;
+    color: rgb(61, 61, 61);
+    border:1px solid rgb(212, 208, 208);
+}
+.option i{
+    font-size: 15px;
+     margin-left: 990px;   
+}
+.footer2{
+    /* border:2px solid; */
+    height:560px;
+    width:100%;
+    background: rgb(248, 248, 248);
+}
+.footer2 #imgg4{
+    margin-top: 45px;
+    margin-left: 130px;
+}
+ .footer2 button{
+    padding-left: 20px;
+    height:40px;
+    border-radius: 5px;
+    border:1px solid grey;
+    font-size: 16px;
+    margin-left: 20px;   
+}
+.footer3{
+    font-size: 13px;
+    justify-content: center;
+    padding:44px;
+}
+.list1{
+    /* border:2px solid; */
+    width:200px;
+    height:230px;
+    position:absolute;
+    margin-top: -480px;
+    margin-left: 83px;
+}
+.list1 h4 ,.list2 h4, .list3 h4
+{
+    font-weight:600;
+    color:rgb(41, 40, 40);
+    letter-spacing: 2px;
+}
+.list1 p ,.list2 p,.list3 p{
+  font-size: 15px;
+  color:grey;
+  line-height: 26px; 
+  cursor: pointer;
+}
+.list2{
+    /* border:2px solid; */
+    width:200px;
+    height:230px;
+    position:absolute;
+    margin-top: -480px;
+    margin-left: 280px;
+}
+.list3{
+    /* border:2px solid; */
+    width:200px;
+    height:73px;
+    position:absolute;
+    margin-top: -480px;
+    margin-left: 478px;  
+}
+.list4{
+    /* border:2px solid; */
+    width:200px;
+    height:100px;
+    position:absolute;
+    margin-top: -390px;
+    margin-left: 478px;  
+}
+.list4 h4 , .list5 h4,.list6 h4{
+    font-weight:600;
+    color:rgb(41, 40, 40);
+    letter-spacing: 2px;
+}
+.list4 p, .list5 p{
+    font-size: 15px;
+    color:grey;
+    line-height: 26px; 
+    cursor: pointer;
+}
+.list5{
+    /* border:2px solid; */
+    width:200px;
+    height:123px;
+    position:absolute;
+    margin-top: -480px;
+    margin-left: 756px;  
+}
+.list6{
+    position:absolute;
+    margin-top: -480px;
+    margin-left: 980px;
+}
+.list6 i{
+    font-size: 22px;
+    padding-left: 4px;
+    margin-top: 15px;
+}
+.list7{
+    position:absolute;
+    margin-top: -400px;
+    margin-left: 980px;  
+}
+.hor{
+    /* border: 2px solid; */
+    position: absolute;
+    width:82%;
+    margin-left: 70px;
+    margin-top: -220px;
+}
+.hor p{
+    color:grey;
+    margin-top: 25px;
+}
+
